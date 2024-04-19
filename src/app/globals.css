@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1{
+  font-size: 32px;
+  font-weight: bold;
+}
+h2{
+  font-size: 24px;
+  font-weight: bold;
+}
+h3{
+  font-size: 18.72px;
+  font-weight: bold;
+}
+h4{
+  font-size: 16px;
+  font-weight: bold;
+}h5{
+  font-size: 13.28px;
+  font-weight: bold;
+}
+h6{
+  font-size: 10.72;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'DejaVu Sans Mono';
+  src: url('/fonts/DejaVuSansMono-Regular.ttf') format('truetype');
+  /* Add other font variations if available (e.g., bold, italic) */
+}
+@font-face {
+  font-family: 'DejaVu Sans Mono_2';
+  src: url('/fonts/DejaVuSansMono2-Regular.ttf') format('truetype');
+  /* Add other font variations if available (e.g., bold, italic) */
+}
+
+table{
+  width: 95%;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: separate;
+  font-size: 28px;
+  text-align: center;
+
+}
+ul{
+  list-style: disc;
+}
+.right-side{
+  font-size: 32px;
+  margin-right: 16px;
+  
+  
+}
+.left-side{
+  font-size: 32px;
+  margin-left: 16px;
+  font-weight:650;
+}
